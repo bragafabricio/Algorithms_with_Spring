@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 @Service
-public class SortService {
+public class BubbleSortService {
     @Autowired
-    public SortService() {
+    public BubbleSortService() {
     }
 
     private static void swap(List<Integer> integerList, int position) {
